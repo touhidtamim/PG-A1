@@ -4,7 +4,7 @@ body {
 }
 
 header, main{
-  margin: auto 160px;
+  margin: auto 155px;
 }
 
 
@@ -14,17 +14,19 @@ header, main{
 
 .green-bg {background-color:#006A50;}
 
-.light-blue {color: rgba(84, 144, 245, 0.2);}
+.light-blue {background-color: rgba(84, 144, 245, 0.2);}
 
-.deep-blue {color: rgb(84, 144, 245);}
+.deep-blue {background-color: rgb(84, 144, 245);}
 
-.light-green {color: rgb(198, 228, 214);}
+.light-green {background-color: rgb(198, 228, 214);}
 
-.deep-green {color: rgb(9, 161, 92);}
+.deep-green {background-color: rgb(9, 161, 92);}
 
-.light-yellow {color: rgb(247, 235, 207);}
+.light-yellow {background-color: rgb(247, 235, 207);}
 
-.deep-yellow {color: rgb(255, 194, 57);}
+.deep-yellow {background-color: rgb(255, 194, 57);}
+
+
 
 button:hover{
   cursor: pointer;
@@ -89,9 +91,18 @@ header{
   border: none;
 }
 
-/* PILLER SECTION */
+
+
+    /* PILLER SECTION */
+
+
 #piller-info{
   margin-top: 100px;
+  margin-bottom: 32px;
+}
+
+#piller-info>h2{
+  font-size: 30px;
 }
 
 #piller-content{
@@ -103,13 +114,66 @@ header{
   font-size: 18px;
   margin-bottom: 8px;
 }
+
 .pill-h5>p{
   color: rgba(14, 14, 14, 0.7);
 }
 
+
+
     /* Vision of Future Section */
+   
     
+#vision-heading{
+  margin-top: 80px; }
+
+#vision-heading>h2{
+  margin:0px 0px 24px 0px;
+  font-size: 30px;  }
+  
+#vision-heading>p{
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;  }
+
 #vision{
   display: flex;
-  gap: 25px;
+  justify-content:space-evenly;
+  gap: 25px; }
+
+.vision-content{
+  padding: 28px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: none; }
+
+
+.vision-content>h5{
+  font-size: 18px;
+  margin-bottom: 8px;  }
+
+.vision-content>p{
+    color: rgba(14, 14, 14, 0.7); }
+
+.vision-btn>button{
+  margin: 28px 0px auto;
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  color: white  }
+
+
+.vision-btn button:hover{
+  cursor: pointer;
+  background-color:rgb(203, 22, 206);
+  color: black;
+  border: 1px solid ;
 }
+
+
+
+
+
+
+
+
