@@ -1,0 +1,115 @@
+ /* added Fira Sans font */   
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+header, main{
+  margin: auto 160px;
+}
+
+
+/* Shared Section */
+
+.common-bg {background-color: rgb(198, 228, 214);}
+
+.green-bg {background-color:#006A50;}
+
+.light-blue {color: rgba(84, 144, 245, 0.2);}
+
+.deep-blue {color: rgb(84, 144, 245);}
+
+.light-green {color: rgb(198, 228, 214);}
+
+.deep-green {color: rgb(9, 161, 92);}
+
+.light-yellow {color: rgb(247, 235, 207);}
+
+.deep-yellow {color: rgb(255, 194, 57);}
+
+button:hover{
+  cursor: pointer;
+  color: white;
+  border: black;
+  background-color: #0591a7;
+  border: 1px solid #032c32;
+}
+
+
+
+
+
+/* Nav Section */
+header{
+  display:flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  align-items: center;
+  padding: 24px 160px 24px 160px;
+}
+
+.sign-in-btn {
+  padding: 15px 30px;
+  color: rgb(0, 106, 80);
+  border: 1px solid #006A50;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+
+    /*  Banner Section    */
+
+.banner{
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  padding: 80px 80px;
+}
+
+#bd2{
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+}
+
+#banner-slogan{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.banner-btn> button{
+  padding: 17px 34px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+/* PILLER SECTION */
+#piller-info{
+  margin-top: 100px;
+}
+
+#piller-content{
+  display: flex;
+  gap: 25px;
+}
+
+.pill-h5>h5{
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.pill-h5>p{
+  color: rgba(14, 14, 14, 0.7);
+}
+
+    /* Vision of Future Section */
+    
+#vision{
+  display: flex;
+  gap: 25px;
+}
