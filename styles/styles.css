@@ -7,6 +7,7 @@ header, main{
   margin: auto 155px;
 }
 
+body{ background-color: rgb(249, 249, 249);}
 
 /* Shared Section */
 
@@ -174,7 +175,8 @@ header{
 /* Quotes Section */
 
 #quotes{
-  margin-top: 48px;
+  margin-top: 68px;
+  margin-bottom: 68px;
   padding: 42px 22px;
   border: 1px solid rgba(206, 194, 194, 0.7);
   border-radius: 15px;
@@ -196,6 +198,64 @@ header{
 #quotes-title{
    color: rgba(14, 14, 14, 0.6);
    margin: 0px;   }
+   
+
+/* Opinion Box Section */
+
+#opinion-box{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;  }
+
+#opinion-box>h2{
+  font-size: 30px;
+  margin-bottom: 25px;
+  align-self: flex-start;
+  margin: 0%;  }
+
+#table{
+  width: 100%;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: white;  }
+
+
+
+table, th ,td{
+  border: 1px solid  rgba(14, 14, 14, 0.2);
+  border-collapse: collapse;
+  padding: 15px;  }
+
+
+th{
+  background-color: rgb(198, 228, 214);
+  font-weight: bold;  }
+
+td{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(14, 14, 14);  }
+
+#column-1{
+  text-align: start;
+  border-right: none; }
+#column-2{
+  border-left: none;
+  text-align: left; }
+
+
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color:rgb(198, 228, 214);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;}
 
 
 
