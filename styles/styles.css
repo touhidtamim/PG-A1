@@ -171,9 +171,31 @@ header{
 }
 
 
+/* Quotes Section */
 
+#quotes{
+  margin-top: 48px;
+  padding: 42px 22px;
+  border: 1px solid rgba(206, 194, 194, 0.7);
+  border-radius: 15px;
+  background-color: white;
+  background-image:url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-position:25px 35px;}
 
+#quotes>h5{
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom:5px;
+  color: rgba(14, 14, 14, 0.8);}
 
+#quotes-content{ color: rgba(14, 14, 14, 0.8);}
+
+#quotes-title{
+   color: rgba(14, 14, 14, 0.6);
+   margin: 0px;   }
 
 
 
