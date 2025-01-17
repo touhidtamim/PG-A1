@@ -33,10 +33,16 @@ button:hover{
   cursor: pointer;
   color: white;
   border: black;
-  background-color: #0591a7;
-  border: 1px solid #032c32;
-}
+  background-color: rgb(61, 141, 227);
+  border: 1px solid #032c32;}
 
+
+.photo-resize{
+  width: 40%;
+  height: 60%;}
+
+
+.head-space{ margin-top: 80px;}
 
 
 
@@ -202,6 +208,7 @@ header{
 
 /* Opinion Box Section */
 
+
 #opinion-box{
   margin-top: 60px;
   display: flex;
@@ -258,4 +265,56 @@ select {
   cursor: pointer;}
 
 
+  /* Recent News Section */
 
+  
+#R-title{
+  font-size: 30px;
+  margin-bottom: 25px; }
+
+#R-Description{
+  color: rgba(14, 14, 14, 0.7); }
+
+
+.News-Article{
+  display: flex;
+  gap: 30px;
+  padding: 45px;
+  border-radius: 20px;
+  background-color: white;  }
+
+.News-Article img {
+  border-radius: 15px;  }
+
+.News-Article h2 {
+  font-size: 22px;
+  margin: 0px 0px 8px 0px; }
+
+.date-time{ 
+  display: flex;
+  gap: 10px;
+  margin: 3px auto;
+}
+
+.News-Article  p{
+  color: rgba(14, 14, 14, 0.7); }
+
+.Read-more {
+  font-weight: 600;
+  padding: 13px 26px;
+  border-radius: 7px;
+  border: none;
+  color: white  }
+
+#section-1{
+  margin-bottom: 20px;
+}
+
+#section-2{
+  margin-bottom: 20px;
+}
+
+#article-2{
+  display: flex;
+  flex-direction: row-reverse;
+}
