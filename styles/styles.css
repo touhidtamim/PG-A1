@@ -404,3 +404,70 @@ select {
 
 
   /* Newsletter Section */
+
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+  margin-top: 80px;
+  padding: 70px 100px;
+}
+
+.newsletter h2{
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+  font-size: 30px;
+  margin-top: -3px;
+  margin-bottom: 16px;
+}
+
+.newsletter p{
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.newsletter-form input[type="email"] {
+  width: 600px;
+  height: 50px;
+  font-size: 14px;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.newsletter-form ::placeholder{
+  padding: 18px 50px;
+}
+
+.newsletter-form button {
+  background-color: #006A50;;
+  color: white;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 17px 34px 17px 34px;
+  font-size: 14px;
+}
+
+.newsletter-form button:hover {
+  background-color: rgb(61, 141, 227);
+}
+
+.newsletter-footer {
+  margin-top: 30px;
+}
+
+
