@@ -113,6 +113,14 @@ header{
   gap: 25px;
 }
 
+.pill-h5{
+  box-sizing: border-box;
+  padding: 24px;
+  border: 1px solid rgba(75, 72, 72, 0.15);
+  border-radius: 12px;
+  background-color: white;
+}
+
 .pill-h5>h5{
   font-size: 18px;
   margin-bottom: 8px;
@@ -444,8 +452,8 @@ select {
   height: 50px;
   font-size: 14px;
   border: none;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
 .newsletter-form ::placeholder{
@@ -456,8 +464,8 @@ select {
   background-color: #006A50;;
   color: white;
   border: none;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
   padding: 17px 34px 17px 34px;
   font-size: 14px;
 }
