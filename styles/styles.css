@@ -128,6 +128,7 @@ header{
 
 .pill-h5>p{
   color: rgba(14, 14, 14, 0.7);
+  /* text-align: justify; */
 }
 
 
@@ -203,7 +204,8 @@ header{
   margin-bottom:5px;
   color: rgba(14, 14, 14, 0.8);}
 
-#quotes-content{ color: rgba(14, 14, 14, 0.8);}
+#quotes-content{ color: rgba(14, 14, 14, 0.8);
+  /* text-align: justify;  */ }
 
 #quotes-title{
    color: rgba(14, 14, 14, 0.6);
@@ -233,7 +235,12 @@ header{
   border: none;
   border-radius: 15px;
   box-sizing: border-box;
-  background-color: white;  }
+  background-color: white; 
+}
+
+#table table{
+  width: 1150px;
+}
 
 
 
