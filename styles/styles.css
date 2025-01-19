@@ -239,10 +239,7 @@ header{
 }
 
 #table table{
-  width: 1150px;
-}
-
-
+  width: 1150px;  }
 
 table, th ,td{
   border: 1px solid  rgba(14, 14, 14, 0.2);
