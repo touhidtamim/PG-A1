@@ -392,8 +392,9 @@ select {
 #input-box input{
   width: 85%;
   height: 62px;
-  border: none;
-  border-radius: 8px;
+  border: black;
+  border-radius: 6px;
+  box-shadow:1px 1px 1px 1px rgba(116, 114, 114, 0.3);
 }
 
 #input-box ::placeholder{
